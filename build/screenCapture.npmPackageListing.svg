@@ -1,0 +1,19 @@
+<svg height="254" width="720" xmlns="http://www.w3.org/2000/svg">
+<rect height="254" fill="#555" width="720"></rect>
+<text fill="#7f7" font-family="Courier New" font-size="12" xml:space="preserve">
+<tspan x="10" y="26">  0.  2017-04-07 05:31:25 +0000    35309 byte  .</tspan>
+<tspan x="10" y="42">  1.  2017-04-07 05:31:25 +0000     1073 byte  LICENSE</tspan>
+<tspan x="10" y="58">  2.  2017-04-07 05:31:25 +0000     5958 byte  README.md</tspan>
+<tspan x="10" y="74">  3.  2017-04-07 05:31:25 +0000      506 byte  lib/loggly.js</tspan>
+<tspan x="10" y="90">  4.  2017-04-07 05:31:25 +0000     6644 byte  lib/loggly/client.js</tspan>
+<tspan x="10" y="106">  5.  2017-04-07 05:31:25 +0000     5008 byte  lib/loggly/common.js</tspan>
+<tspan x="10" y="122">  6.  2017-04-07 05:31:25 +0000     3759 byte  lib/loggly/search.js</tspan>
+<tspan x="10" y="138">  7.  2017-04-07 05:31:25 +0000     2580 byte  package.json</tspan>
+<tspan x="10" y="154">  8.  2017-04-07 05:31:25 +0000      742 byte  test/common-test.js</tspan>
+<tspan x="10" y="170">  9.  2017-04-07 05:31:25 +0000      160 byte  test/config.json.enc</tspan>
+<tspan x="10" y="186"> 10.  2017-04-07 05:31:25 +0000      832 byte  test/customer-test.js</tspan>
+<tspan x="10" y="202"> 11.  2017-04-07 05:31:25 +0000     1109 byte  test/helpers.js</tspan>
+<tspan x="10" y="218"> 12.  2017-04-07 05:31:25 +0000     5124 byte  test/log-test.js</tspan>
+<tspan x="10" y="234"> 13.  2017-04-07 05:31:25 +0000     1814 byte  test/search-test.js</tspan>
+</text>
+</svg>
