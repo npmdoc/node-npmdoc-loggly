@@ -1,6 +1,6 @@
 # npmdoc-loggly
 
-#### api documentation for  [loggly (v1.1.1)](https://github.com/winstonjs/node-loggly#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-loggly.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-loggly) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-loggly.svg)](https://travis-ci.org/npmdoc/node-npmdoc-loggly)
+#### basic api documentation for  [loggly (v1.1.1)](https://github.com/winstonjs/node-loggly#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-loggly.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-loggly) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-loggly.svg)](https://travis-ci.org/npmdoc/node-npmdoc-loggly)
 
 #### A client implementation for Loggly cloud Logging-as-a-Service API
 
@@ -73,7 +73,8 @@
         "pretest": "common lib/**/*.js lib/*.js test/helpers.js",
         "test": "vows test/*-test.js --spec"
     },
-    "version": "1.1.1"
+    "version": "1.1.1",
+    "bin": {}
 }
 ```
 
