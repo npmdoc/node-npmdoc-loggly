@@ -99,12 +99,6 @@
 
         <li>
 
-            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan"></span>loggly</span>
-
-        </li>
-
-        <li>
-
             <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">loggly.</span>Loggly.prototype</span>
 
         </li>
@@ -112,24 +106,6 @@
         <li>
 
             <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">loggly.</span>Search.prototype</span>
-
-        </li>
-
-        <li>
-
-            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">loggly.</span>client</span>
-
-        </li>
-
-        <li>
-
-            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">loggly.</span>common</span>
-
-        </li>
-
-        <li>
-
-            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">loggly.</span>search</span>
 
         </li>
 
@@ -250,130 +226,6 @@
             <a class="apidocElementLiA" href="#apidoc.element.loggly.Search.prototype.run">
             function <span class="apidocSignatureSpan">loggly.Search.prototype.</span>run
             <span class="apidocSignatureSpan">(callback)</span>
-            </a>
-
-        </li>
-
-    </ol></li>
-
-    <li class="apidocModuleLi"><a href="#apidoc.module.loggly.client">module loggly.client</a><ol>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.loggly.client.Loggly">
-            function <span class="apidocSignatureSpan">loggly.client.</span>Loggly
-            <span class="apidocSignatureSpan">(options)</span>
-            </a>
-
-        </li>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.loggly.client.createClient">
-            function <span class="apidocSignatureSpan">loggly.client.</span>createClient
-            <span class="apidocSignatureSpan">(options)</span>
-            </a>
-
-        </li>
-
-    </ol></li>
-
-    <li class="apidocModuleLi"><a href="#apidoc.module.loggly.common">module loggly.common</a><ol>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.loggly.common.clone">
-            function <span class="apidocSignatureSpan">loggly.common.</span>clone
-            <span class="apidocSignatureSpan">(obj)</span>
-            </a>
-
-        </li>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.loggly.common.loggly">
-            function <span class="apidocSignatureSpan">loggly.common.</span>loggly
-            <span class="apidocSignatureSpan">()</span>
-            </a>
-
-        </li>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.loggly.common.serialize">
-            function <span class="apidocSignatureSpan">loggly.common.</span>serialize
-            <span class="apidocSignatureSpan">(obj, key)</span>
-            </a>
-
-        </li>
-
-        <li>
-
-            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">loggly.common.</span>failCodes</span>
-
-        </li>
-
-        <li>
-
-            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">loggly.common.</span>successCodes</span>
-
-        </li>
-
-    </ol></li>
-
-    <li class="apidocModuleLi"><a href="#apidoc.module.loggly.loggly">module loggly.loggly</a><ol>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.loggly.loggly.Loggly">
-            function <span class="apidocSignatureSpan">loggly.loggly.</span>Loggly
-            <span class="apidocSignatureSpan">(options)</span>
-            </a>
-
-        </li>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.loggly.loggly.Search">
-            function <span class="apidocSignatureSpan">loggly.loggly.</span>Search
-            <span class="apidocSignatureSpan">(options, client)</span>
-            </a>
-
-        </li>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.loggly.loggly.createClient">
-            function <span class="apidocSignatureSpan">loggly.loggly.</span>createClient
-            <span class="apidocSignatureSpan">(options)</span>
-            </a>
-
-        </li>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.loggly.loggly.serialize">
-            function <span class="apidocSignatureSpan">loggly.loggly.</span>serialize
-            <span class="apidocSignatureSpan">(obj, key)</span>
-            </a>
-
-        </li>
-
-        <li>
-
-            <span class="apidocSignatureSpan">string <span class="apidocSignatureSpan">loggly.loggly.</span>version</span>
-
-        </li>
-
-    </ol></li>
-
-    <li class="apidocModuleLi"><a href="#apidoc.module.loggly.search">module loggly.search</a><ol>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.loggly.search.Search">
-            function <span class="apidocSignatureSpan">loggly.search.</span>Search
-            <span class="apidocSignatureSpan">(options, client)</span>
             </a>
 
         </li>
@@ -574,14 +426,6 @@ msg = isBulk ? msg.map(serialize).join(&#x27;\n&#x27;) : serialize(msg);
 
 
 
-
-
-
-
-
-
-
-
 </div>
 
 <div class="apidocSectionDiv">
@@ -670,7 +514,23 @@ msg = isBulk ? msg.map(serialize).join(&#x27;\n&#x27;) : serialize(msg);
     callback(null, customer);
   });
 }</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+  config = helpers.loadConfig(),
+  loggly = require(&#x27;../lib/loggly&#x27;).createClient(config);
+
+vows.describe(&#x27;node-loggly/customer&#x27;).addBatch({
+&#x22;When using the node-loggly client&#x22;: {
+  &#x22;the customer() method&#x22;: {
+    topic: function () {
+      loggly.<span class="apidocCodeKeywordSpan">customer</span>(this.callback);
+    },
+    &#x22;should return a valid customer&#x22;: function (err, customer) {
+      assert.isNull(err);
+      assert.isArray(customer.tokens);
+      assert.isString(customer.subdomain);
+      assert.isObject(customer.subscription);
+    }
+...</pre></li>
     </ul>
 
 
@@ -994,21 +854,21 @@ this.urls = {
   return this;
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
-  });
+  }
 }
+    },
+    &#x22;the _checkRange() method&#x22;: {
+&#x22;with invalid options set&#x22;: {
+  &#x22;should correct them&#x22;: function () {
+    var search = loggly.search({ query: &#x27;invalid logging message&#x27;, from: &#x27;now&#x27;, until: &#x27;-1d&#x27; })
+      .<span class="apidocCodeKeywordSpan">_checkRange</span>();
 
-//
-// Check any time ranges (if supplied) to ensure
-// they are valid.
-//
-this.<span class="apidocCodeKeywordSpan">_checkRange</span>();
-
-common.loggly({
-  uri:  this.client.logglyUrl(&#x27;search?&#x27; + qs.stringify(this.options)),
-  auth: this.client.auth,
-  json: true
-}, this.callback, function (res, body) {
-  var rsid;
+    assert.equal(search.options.from, &#x27;now&#x27;);
+    assert.equal(search.options.until, &#x27;-1d&#x27;);
+  }
+},
+&#x22;with valid options set&#x22;: {
+  &#x22;should not modify them&#x22;: function () {
 ...</pre></li>
     </ul>
 
@@ -1109,543 +969,6 @@ The search() method can also take an Object parameter that allows you to set add
 
 See the [Loggly search guide][search] for more details on how to effectively search through your Loggly logs.
 ...</pre></li>
-    </ul>
-
-
-</div>
-
-<div class="apidocSectionDiv">
-<h1><a href="#apidoc.module.loggly.client" id="apidoc.module.loggly.client">module loggly.client</a></h1>
-
-
-    <h2>
-        <a href="#apidoc.element.loggly.client.Loggly" id="apidoc.element.loggly.client.Loggly">
-        function <span class="apidocSignatureSpan">loggly.client.</span>Loggly
-        <span class="apidocSignatureSpan">(options)</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">Loggly = function (options) {
-  if (!options || !options.subdomain || !options.token) {
-    throw new Error(&#x27;options.subdomain and options.token are required.&#x27;);
-  }
-
-  events.EventEmitter.call(this);
-  this.subdomain    = options.subdomain;
-  this.token        = options.token;
-  this.host         = options.host || &#x27;logs-01.loggly.com&#x27;;
-  this.json         = options.json || null;
-  this.auth         = options.auth || null;
-  this.proxy        = options.proxy || null;
-  this.userAgent    = &#x27;node-loggly &#x27; + loggly.version;
-  this.useTagHeader = &#x27;useTagHeader&#x27; in options ? options.useTagHeader : true;
-
-  //
-  // Set the tags on this instance.
-  //
-  this.tags = options.tags
-    ? this.tagFilter(options.tags)
-    : null;
-
-  var url   = &#x27;https://&#x27; + this.host,
-      api   = options.api  || &#x27;apiv2&#x27;;
-
-  this.urls = {
-    default: url,
-    log:     [url, &#x27;inputs&#x27;, this.token].join(&#x27;/&#x27;),
-    bulk:    [url, &#x27;bulk&#x27;, this.token].join(&#x27;/&#x27;),
-    api:     &#x27;https://&#x27; + [this.subdomain, &#x27;loggly&#x27;, &#x27;com&#x27;].join(&#x27;.&#x27;) + &#x27;/&#x27; + api
-  };
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
-    </ul>
-
-
-
-    <h2>
-        <a href="#apidoc.element.loggly.client.createClient" id="apidoc.element.loggly.client.createClient">
-        function <span class="apidocSignatureSpan">loggly.client.</span>createClient
-        <span class="apidocSignatureSpan">(options)</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">createClient = function (options) {
-  return new Loggly(options);
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">...
-
-### Getting Started
-Before we can do anything with Loggly, we have to create a client with valid credentials. We will authenticate for you automatically
-:
-
-``` js
-var loggly = require(&#x27;loggly&#x27;);
-
-var client = loggly.<span class="apidocCodeKeywordSpan">createClient</span>({
-  token: &#x22;your-really-long-input-token&#x22;,
-  subdomain: &#x22;your-subdomain&#x22;,
-  auth: {
-    username: &#x22;your-username&#x22;,
-    password: &#x22;your-password&#x22;
-  },
-  //
-...</pre></li>
-    </ul>
-
-
-</div>
-
-<div class="apidocSectionDiv">
-<h1><a href="#apidoc.module.loggly.common" id="apidoc.module.loggly.common">module loggly.common</a></h1>
-
-
-    <h2>
-        <a href="#apidoc.element.loggly.common.clone" id="apidoc.element.loggly.common.clone">
-        function <span class="apidocSignatureSpan">loggly.common.</span>clone
-        <span class="apidocSignatureSpan">(obj)</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">clone = function (obj) {
-  var clone = {};
-  for (var i in obj) {
-    clone[i] = obj[i] instanceof Object ? common.clone(obj[i]) : obj[i];
-  }
-
-  return clone;
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">...
-// function clone (obj)
-//   Helper method for deep cloning pure JSON objects
-//   i.e. JSON objects that are either literals or objects (no Arrays, etc)
-//
-common.clone = function (obj) {
-  var clone = {};
-  for (var i in obj) {
-    clone[i] = obj[i] instanceof Object ? common.<span class="apidocCodeKeywordSpan">clone</span>(obj[i]) : obj[i];
-  }
-
-  return clone;
-};
-...</pre></li>
-    </ul>
-
-
-
-    <h2>
-        <a href="#apidoc.element.loggly.common.loggly" id="apidoc.element.loggly.common.loggly">
-        function <span class="apidocSignatureSpan">loggly.common.</span>loggly
-        <span class="apidocSignatureSpan">()</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">loggly = function () {
-  var args = Array.prototype.slice.call(arguments),
-      success = args.pop(),
-      callback = args.pop(),
-      responded,
-      requestBody,
-      headers,
-      method,
-      auth,
-      proxy,
-      uri;
-
-  //
-  // Now that we&#x27;ve popped off the two callbacks
-  // We can make decisions about other arguments
-  //
-  if (args.length === 1) {
-    if (typeof args[0] === &#x27;string&#x27;) {
-      //
-      // If we got a string assume that it&#x27;s the URI
-      //
-      method = &#x27;GET&#x27;;
-      uri    = args[0];
-    }
-    else {
-      method      = args[0].method || &#x27;GET&#x27;;
-      uri         = args[0].uri;
-      requestBody = args[0].body;
-      auth        = args[0].auth;
-      headers     = args[0].headers;
-      proxy       = args[0].proxy;
-    }
-  }
-  else if (args.length === 2) {
-    method = &#x27;GET&#x27;;
-    uri    = args[0];
-    auth   = args[1];
-  }
-  else {
-    method = args[0];
-    uri    = args[1];
-    auth   = args[2];
-  }
-
-  function onError(err) {
-    if (!responded) {
-      responded = true;
-      if (callback) { callback(err) }
-    }
-  }
-
-  var requestOptions = {
-    uri: uri,
-    method: method,
-    headers: headers || {},
-    proxy: proxy
-  };
-
-  if (auth) {
-    requestOptions.headers.authorization = &#x27;Basic &#x27; + new Buffer(auth.username + &#x27;:&#x27; + auth.password).toString(&#x27;base64&#x27;);
-  }
-
-  if (requestBody) {
-    requestOptions.body = requestBody;
-  }
-
-  try {
-    request(requestOptions, function (err, res, body) {
-      if (err) {
-        return onError(err);
-      }
-
-      var statusCode = res.statusCode.toString();
-      if (Object.keys(failCodes).indexOf(statusCode) !== -1) {
-        return onError((new Error(&#x27;Loggly Error (&#x27; + statusCode + &#x27;): &#x27; + failCodes[statusCode])));
-      }
-
-      success(res, body);
-    });
-  }
-  catch (ex) {
-    onError(ex);
-  }
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">...
-    logOptions.headers[&#x27;X-LOGGLY-TAG&#x27;] = tags.join(&#x27;,&#x27;);
-  }
-  else {
-    logOptions.uri += &#x27;/tag/&#x27; + tags.join(&#x27;,&#x27;) + &#x27;/&#x27;;
-  }
-}
-
-common.<span class="apidocCodeKeywordSpan">loggly</span>(logOptions, callback, function (res, body) {
-  try {
-    var result = JSON.parse(body);
-    self.emit(&#x27;log&#x27;, result);
-    if (callback) {
-      callback(null, result);
-    }
-  }
-...</pre></li>
-    </ul>
-
-
-
-    <h2>
-        <a href="#apidoc.element.loggly.common.serialize" id="apidoc.element.loggly.common.serialize">
-        function <span class="apidocSignatureSpan">loggly.common.</span>serialize
-        <span class="apidocSignatureSpan">(obj, key)</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">serialize = function (obj, key) {
-  if (obj === null) {
-    obj = &#x27;null&#x27;;
-  }
-  else if (obj === undefined) {
-    obj = &#x27;undefined&#x27;;
-  }
-  else if (obj === false) {
-    obj = &#x27;false&#x27;;
-  }
-
-  if (typeof obj !== &#x27;object&#x27;) {
-    return key ? key + &#x27;=&#x27; + obj : obj;
-  }
-
-  var msg = &#x27;&#x27;,
-      keys = Object.keys(obj),
-      length = keys.length;
-
-  for (var i = 0; i &#x3c; length; i++) {
-    if (Array.isArray(obj[keys[i]])) {
-      msg += keys[i] + &#x27;=[&#x27;;
-
-      for (var j = 0, l = obj[keys[i]].length; j &#x3c; l; j++) {
-        msg += common.serialize(obj[keys[i]][j]);
-        if (j &#x3c; l - 1) {
-          msg += &#x27;, &#x27;;
-        }
-      }
-
-      msg += &#x27;]&#x27;;
-    }
-    else {
-      msg += common.serialize(obj[keys[i]], keys[i]);
-    }
-
-    if (i &#x3c; length - 1) {
-      msg += &#x27;, &#x27;;
-    }
-  }
-
-  return msg;
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">...
-//
-// Remark: Have some extra logic for detecting if we want to make a bulk
-// request to loggly
-//
-var isBulk = Array.isArray(msg);
-function serialize(msg) {
-  if (msg instanceof Object) {
-    return self.json ? stringify(msg) : common.<span class="apidocCodeKeywordSpan">serialize</span>(msg);
-  }
-  else {
-    return self.json ? stringify({ message: msg }) : msg;
-  }
-}
-
-msg = isBulk ? msg.map(serialize).join(&#x27;\n&#x27;) : serialize(msg);
-...</pre></li>
-    </ul>
-
-
-
-
-
-
-</div>
-
-<div class="apidocSectionDiv">
-<h1><a href="#apidoc.module.loggly.loggly" id="apidoc.module.loggly.loggly">module loggly.loggly</a></h1>
-
-
-    <h2>
-        <a href="#apidoc.element.loggly.loggly.Loggly" id="apidoc.element.loggly.loggly.Loggly">
-        function <span class="apidocSignatureSpan">loggly.loggly.</span>Loggly
-        <span class="apidocSignatureSpan">(options)</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">Loggly = function (options) {
-  if (!options || !options.subdomain || !options.token) {
-    throw new Error(&#x27;options.subdomain and options.token are required.&#x27;);
-  }
-
-  events.EventEmitter.call(this);
-  this.subdomain    = options.subdomain;
-  this.token        = options.token;
-  this.host         = options.host || &#x27;logs-01.loggly.com&#x27;;
-  this.json         = options.json || null;
-  this.auth         = options.auth || null;
-  this.proxy        = options.proxy || null;
-  this.userAgent    = &#x27;node-loggly &#x27; + loggly.version;
-  this.useTagHeader = &#x27;useTagHeader&#x27; in options ? options.useTagHeader : true;
-
-  //
-  // Set the tags on this instance.
-  //
-  this.tags = options.tags
-    ? this.tagFilter(options.tags)
-    : null;
-
-  var url   = &#x27;https://&#x27; + this.host,
-      api   = options.api  || &#x27;apiv2&#x27;;
-
-  this.urls = {
-    default: url,
-    log:     [url, &#x27;inputs&#x27;, this.token].join(&#x27;/&#x27;),
-    bulk:    [url, &#x27;bulk&#x27;, this.token].join(&#x27;/&#x27;),
-    api:     &#x27;https://&#x27; + [this.subdomain, &#x27;loggly&#x27;, &#x27;com&#x27;].join(&#x27;.&#x27;) + &#x27;/&#x27; + api
-  };
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
-    </ul>
-
-
-
-    <h2>
-        <a href="#apidoc.element.loggly.loggly.Search" id="apidoc.element.loggly.loggly.Search">
-        function <span class="apidocSignatureSpan">loggly.loggly.</span>Search
-        <span class="apidocSignatureSpan">(options, client)</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">Search = function (options, client) {
-  if (!options || (!options.query &#x26;&#x26; !options.q)) {
-    throw new Error(&#x27;options.query is required to execute a Loggly search.&#x27;);
-  }
-
-  events.EventEmitter.call(this);
-
-  if (options.query) {
-    options.q = options.query;
-    delete options.query;
-  }
-
-  this.options = options;
-  this.client  = client;
-
-  //
-  // If we&#x27;re passed a callback, run immediately.
-  //
-  if (options.callback) {
-    this.callback = options.callback;
-    delete options.callback;
-    this.run();
-  }
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
-    </ul>
-
-
-
-    <h2>
-        <a href="#apidoc.element.loggly.loggly.createClient" id="apidoc.element.loggly.loggly.createClient">
-        function <span class="apidocSignatureSpan">loggly.loggly.</span>createClient
-        <span class="apidocSignatureSpan">(options)</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">createClient = function (options) {
-  return new Loggly(options);
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">...
-
-### Getting Started
-Before we can do anything with Loggly, we have to create a client with valid credentials. We will authenticate for you automatically
-:
-
-``` js
-var loggly = require(&#x27;loggly&#x27;);
-
-var client = loggly.<span class="apidocCodeKeywordSpan">createClient</span>({
-  token: &#x22;your-really-long-input-token&#x22;,
-  subdomain: &#x22;your-subdomain&#x22;,
-  auth: {
-    username: &#x22;your-username&#x22;,
-    password: &#x22;your-password&#x22;
-  },
-  //
-...</pre></li>
-    </ul>
-
-
-
-    <h2>
-        <a href="#apidoc.element.loggly.loggly.serialize" id="apidoc.element.loggly.loggly.serialize">
-        function <span class="apidocSignatureSpan">loggly.loggly.</span>serialize
-        <span class="apidocSignatureSpan">(obj, key)</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">serialize = function (obj, key) {
-  if (obj === null) {
-    obj = &#x27;null&#x27;;
-  }
-  else if (obj === undefined) {
-    obj = &#x27;undefined&#x27;;
-  }
-  else if (obj === false) {
-    obj = &#x27;false&#x27;;
-  }
-
-  if (typeof obj !== &#x27;object&#x27;) {
-    return key ? key + &#x27;=&#x27; + obj : obj;
-  }
-
-  var msg = &#x27;&#x27;,
-      keys = Object.keys(obj),
-      length = keys.length;
-
-  for (var i = 0; i &#x3c; length; i++) {
-    if (Array.isArray(obj[keys[i]])) {
-      msg += keys[i] + &#x27;=[&#x27;;
-
-      for (var j = 0, l = obj[keys[i]].length; j &#x3c; l; j++) {
-        msg += common.serialize(obj[keys[i]][j]);
-        if (j &#x3c; l - 1) {
-          msg += &#x27;, &#x27;;
-        }
-      }
-
-      msg += &#x27;]&#x27;;
-    }
-    else {
-      msg += common.serialize(obj[keys[i]], keys[i]);
-    }
-
-    if (i &#x3c; length - 1) {
-      msg += &#x27;, &#x27;;
-    }
-  }
-
-  return msg;
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">...
-//
-// Remark: Have some extra logic for detecting if we want to make a bulk
-// request to loggly
-//
-var isBulk = Array.isArray(msg);
-function serialize(msg) {
-  if (msg instanceof Object) {
-    return self.json ? stringify(msg) : common.<span class="apidocCodeKeywordSpan">serialize</span>(msg);
-  }
-  else {
-    return self.json ? stringify({ message: msg }) : msg;
-  }
-}
-
-msg = isBulk ? msg.map(serialize).join(&#x27;\n&#x27;) : serialize(msg);
-...</pre></li>
-    </ul>
-
-
-
-
-</div>
-
-<div class="apidocSectionDiv">
-<h1><a href="#apidoc.module.loggly.search" id="apidoc.module.loggly.search">module loggly.search</a></h1>
-
-
-    <h2>
-        <a href="#apidoc.element.loggly.search.Search" id="apidoc.element.loggly.search.Search">
-        function <span class="apidocSignatureSpan">loggly.search.</span>Search
-        <span class="apidocSignatureSpan">(options, client)</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">Search = function (options, client) {
-  if (!options || (!options.query &#x26;&#x26; !options.q)) {
-    throw new Error(&#x27;options.query is required to execute a Loggly search.&#x27;);
-  }
-
-  events.EventEmitter.call(this);
-
-  if (options.query) {
-    options.q = options.query;
-    delete options.query;
-  }
-
-  this.options = options;
-  this.client  = client;
-
-  //
-  // If we&#x27;re passed a callback, run immediately.
-  //
-  if (options.callback) {
-    this.callback = options.callback;
-    delete options.callback;
-    this.run();
-  }
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
 
 
